@@ -7,6 +7,6 @@ diagonally and balls can't travel through the squares that contains other balls.
 another is solved by an augmented A* search and probably the most interesting part of this project. All rights about the game
 belongs to their respective owners. I've written this code on my own for practice purposes.
 
-<img width="600" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190142-ca2b9700-6ae9-11ea-8872-313f473c340b.PNG"> <img width="600" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190150-cd268780-6ae9-11ea-94d2-0e4fc9e94bb1.PNG">
+<img width="550" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190142-ca2b9700-6ae9-11ea-8872-313f473c340b.PNG"> <img width="550" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190150-cd268780-6ae9-11ea-94d2-0e4fc9e94bb1.PNG">
 
-<img width="600" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190160-cf88e180-6ae9-11ea-99b9-211289387b1f.PNG"> <img width="600" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190163-d152a500-6ae9-11ea-9285-c4aaca9aeb4c.PNG">
+<img width="550" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190160-cf88e180-6ae9-11ea-99b9-211289387b1f.PNG"> <img width="550" alt="Screen Shot 2020-03-21 at 00 22 30" src="https://user-images.githubusercontent.com/45623751/77190163-d152a500-6ae9-11ea-9285-c4aaca9aeb4c.PNG">
