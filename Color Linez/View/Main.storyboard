@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="cleanVersion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="jMF-7W-rCm" customClass="GameBoardView" customModule="cleanVersion" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jMF-7W-rCm" secondAttribute="height" id="m4m-dX-bvp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1DS-ST-gfF">
+                                <rect key="frame" x="95" y="158.33333333333334" width="224" height="74.666666666666657"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1DS-ST-gfF" secondAttribute="height" multiplier="3:1" id="Wpu-OT-389"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jMF-7W-rCm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="22b-lt-EuQ"/>
+                            <constraint firstItem="1DS-ST-gfF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LFB-L2-oxo"/>
+                            <constraint firstItem="jMF-7W-rCm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cTb-0F-CQZ"/>
+                            <constraint firstItem="1DS-ST-gfF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:12" id="ff0-6V-8KB"/>
+                            <constraint firstItem="jMF-7W-rCm" firstAttribute="firstBaseline" secondItem="1DS-ST-gfF" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="sT1-eH-l92"/>
+                            <constraint firstItem="jMF-7W-rCm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xjS-Ym-ASI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameBoardView" destination="jMF-7W-rCm" id="ImB-fb-fHL"/>
+                        <outlet property="nextBallsView" destination="1DS-ST-gfF" id="VTX-fI-ACe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="102"/>
+        </scene>
+    </scenes>
+</document>
